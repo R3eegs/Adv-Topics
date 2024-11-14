@@ -10,7 +10,7 @@
 using namespace std;
 
 const int EMP_ID_WIDTH = 8;
-const int EMP_NAME_WIDTH = 20;
+const int EMP_NAME_WIDTH = 20;x
 const int EMP_EMAIL_WIDTH = 25;
 const int EMP_NUMERIC_WIDTH = 10;
 const int TOTAL_WIDTH = 100;
@@ -52,8 +52,8 @@ void readFile(vector <Employee>& v_emp){
         std::getline(fin, line);
         recNo ++;
         //cout << recNo << " - " << line << endl;
-        // since we have successfully read a line from the file
-        // so it is time to parse each token for field values
+
+        
         istringstream iss(line);
 
         string strEmpId;
@@ -63,7 +63,7 @@ void readFile(vector <Employee>& v_emp){
         string strHealthInsAmt;
         string strEmail;
 
-        std::getline(iss, strEmpId, ','); // 101,John Alter,5000,75,100,jdoe@gmail.com
+        std::getline(iss, strEmpId, ','); 
         std::getline(iss, strName, ',');
         std::getline(iss, strBasicSalary, ',');
         std::getline(iss, strPf, ',');
