@@ -26,17 +26,7 @@ struct Employee{
 };
 
 // function prototypes
-void readFile(vector <Employee>& v_emp);
-void printMenu();
-void doTask(vector <Employee>& v_emp, int option);
-void addEmployee(vector <Employee>& v_emp);
-int searchEmployee(vector <Employee> v_emp, int targetEmpId);
-void saveToFile(vector <Employee> v_emp);
 
-void printEmployees(vector <Employee> v_emp);
-void printEmployee(Employee e);
-double getNetSalary(Employee e);
-bool deleteEmployee(vector <Employee>& v_emp, int targetEmpId);
 
 
 void readFile(vector <Employee>& v_emp){
